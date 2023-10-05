@@ -60,7 +60,8 @@ img {
 	width: 170px;
 }
 
-.header {
+.header,
+.footer {
 	padding: 30px 0;
 }
 
@@ -73,7 +74,14 @@ img {
 .section_inner {
 	max-width: 1100px;
 	margin: auto;
+}
+
+.high{
 	padding: 80px 0;
+}
+
+.low {
+	padding: 30px 0;
 }
 
 .flex_col {
@@ -128,6 +136,7 @@ ul.navigation {
 .left {
 	flex-basis: 50%;
 	flex-grow: 0;
+	flex-shrink: 0;
 }
 
 .button {
@@ -163,3 +172,14 @@ img.product {
 	margin: 20px;
 }
 
+img.border_radius {
+	border-radius: 5px;
+}
+
+
+.footer
+{
+	background-color: #303339;
+	color: white;
+	text-align: center;
+}
