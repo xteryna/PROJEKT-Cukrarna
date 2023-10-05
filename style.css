@@ -50,13 +50,21 @@ h3 {
 .section_inner {
 	max-width: 1100px;
 	margin: auto;
+	padding: 80px;
 }
 .header{}
 
 .hero {
 	background-image: url(images/cupcake.jpg);
 	color: white;
-	background-size:100%;
+	background-size:cover;
 	background-repeat: no-repeat;
+}
 
+.hero .section_inner {
+	padding-right: 40%;
+}
+.hero p {
+	font-size: 24px;
+	font-style: italic;
 }
