@@ -36,7 +36,6 @@ h3 {
 
 h1 {
 	font-size: 52px;
-	/* color: white; */
 }
 
 h2 {
@@ -48,3 +47,16 @@ h3 {
 	color: #3e606b;
 }
 
+.section_inner {
+	max-width: 1100px;
+	margin: auto;
+}
+.header{}
+
+.hero {
+	background-image: url(images/cupcake.jpg);
+	color: white;
+	background-size:100%;
+	background-repeat: no-repeat;
+
+}
