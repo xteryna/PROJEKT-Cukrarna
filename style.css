@@ -50,9 +50,43 @@ h3 {
 .section_inner {
 	max-width: 1100px;
 	margin: auto;
-	padding: 80px;
+	padding: 80px 0;
 }
-.header{}
+
+
+.logo{
+	width: 170px;
+}
+
+.header .section_inner {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+ul.navigation {
+	display: flex;
+}
+
+.navigation li {
+	list-style-type: none;
+	flex-shrink: 0;
+	margin-left: 5px;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: #242424;
+	padding: 10px 15px;
+	border-radius: 20px;
+}
+
+.navigation a:hover {
+	background-color: #d2567d;
+	color: white;
+	border-radius: 20px;
+}
 
 .hero {
 	background-image: url(images/cupcake.jpg);
