@@ -9,21 +9,10 @@ html { box-sizing: border-box; }
 	- "pruh" s obsahem obsah je vycentrovaný na stránce
 	- všechny sekce mají nahoře a dole padding 80px
 	- kromě hlavičky a patičky, které mají jen 30px
-	- nadpisy jsou fontem Playfair Display, tučně
-	- veškerý další text na stránce fontem Lora
-	- výchozí velikost textu na stránce je 18px, řádkování 1.5
-
-	Velikosti nadpisů:
-	h1 - 52px  (nadpis v horní Hero sekci s cupcakem)
-	h2 - 36px  (nadpisy v dalších sekcích)
-	h3 - 18px  (název produktu v Dnešní nabídce)
-	Nadpisy mají řádkování jen 1.25
 
 	Barvy:
 	#f195b2		růžová - tlačítka a zvýraznění
 	#d2567d		tmavá růžová - hover/aktivní tlačítka
-	#3e606b		tmavá tyrkysová - na nadpisy
-	#242424		(skoro) černá - na běžný text
 	#f0f0f0		světle šedé pozadí prostřední sekce
 	#303339		tmavé pozadí patičky
 */
@@ -31,12 +20,31 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5;
+	color: #242424;
 }
 
 h1,
 h2,
 h3 {
-	font-family: 'Lora', serif;
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	line-height: 1.25;
+}
+
+h1 {
+	font-size: 52px;
+	color: white;
+}
+
+h2 {
+	font-size: 36px;
+	color: #3e606b;
+}
+
+h3 {
+	color: #3e606b;
 }
 
