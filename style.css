@@ -26,12 +26,17 @@ body {
 	color: #242424;
 }
 
+p{
+	margin: 30px 0;
+}
+
 h1,
 h2,
 h3 {
 	font-family: 'Playfair Display', serif;
 	font-weight: bold;
 	line-height: 1.25;
+	margin: 30px 0;
 }
 
 h1 {
@@ -47,22 +52,31 @@ h3 {
 	color: #3e606b;
 }
 
+
+.logo{
+	width: 170px;
+}
+
+.header {
+	padding: 30px 0;
+}
+
+.header .section_inner {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+}
+
 .section_inner {
 	max-width: 1100px;
 	margin: auto;
 	padding: 80px 0;
 }
 
-
-.logo{
-	width: 170px;
-}
-
-.header .section_inner {
+.flex_col {
 	display: flex;
 	justify-content: space-between;
-	padding-top: 30px;
-	padding-bottom: 30px;
+	gap: 30px;
 }
 
 ul.navigation {
@@ -101,4 +115,22 @@ ul.navigation {
 .hero p {
 	font-size: 24px;
 	font-style: italic;
+}
+.rigth{
+	flex-basis: 50%;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+.left {
+	flex-basis: 50%;
+	flex-grow: 0;
+}
+
+.button {
+	color: white;
+	background-color: #f195b2;
+	padding: 15px 40px;
+	border-radius: 30px;
+	margin: 30px 0;
 }
