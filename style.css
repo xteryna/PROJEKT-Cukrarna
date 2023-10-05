@@ -60,22 +60,14 @@ img {
 	width: 170px;
 }
 
-.header,
-.footer {
-	padding: 30px 0;
-}
-
-.header .section_inner {
-	display: flex;
-	justify-content: space-between;
-	padding: 0;
-}
-
 .section_inner {
 	max-width: 1100px;
 	margin: auto;
 }
 
+section{
+	padding:0 100px;
+}
 .high{
 	padding: 80px 0;
 }
